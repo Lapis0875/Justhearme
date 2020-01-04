@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Justhearme</string>
+    <string name="open">drawer_open</string>
+    <string name="closed">drawer_close</string>
 </resources>
