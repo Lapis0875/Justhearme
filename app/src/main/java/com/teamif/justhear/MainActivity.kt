@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
     private fun initToolBar() {
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
+        supportActionBar!!.setTitle(R.string.timeline)
     }
 
     private fun initBottomNavigation() {
