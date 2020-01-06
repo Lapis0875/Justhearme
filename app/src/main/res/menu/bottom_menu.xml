@@ -4,13 +4,13 @@
     <item
         android:id="@+id/nav1"
         android:icon="@android:drawable/ic_menu_search"
-        android:title="Timeline" />
+        android:title="" />
     <item
         android:id="@+id/nav2"
         android:icon="@android:drawable/ic_menu_camera"
-        android:title="Asdf" />
+        android:title="" />
     <item
         android:id="@+id/nav3"
         android:icon="@android:drawable/ic_menu_call"
-        android:title="Profile" />
+        android:title="" />
 </menu>
