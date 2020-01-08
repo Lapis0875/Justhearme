@@ -2,8 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/nav1"
-        android:icon="@android:drawable/ic_menu_search"
+        android:id="@+id/timeline"
+        android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="" />
     <item
         android:id="@+id/nav2"
@@ -11,6 +11,10 @@
         android:title="" />
     <item
         android:id="@+id/nav3"
-        android:icon="@android:drawable/ic_menu_call"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="" />
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_more_horiz_black_24dp"
         android:title="" />
 </menu>

@@ -8,13 +8,13 @@ import androidx.fragment.app.Fragment
 import com.teamif.justhear.MainActivity
 import com.teamif.justhear.R
 
-class FragmentTimeline : Fragment() {
+class FragmentMore : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
-        return inflater.inflate(R.layout.fragment_timeline, container, false)
+        return inflater.inflate(R.layout.fragment_more, container, false)
     }
 
     override fun onResume() {
         super.onResume()
-        (activity!! as MainActivity).setActionBarTitle(R.string.timeline)
+        (activity!! as MainActivity).setActionBarTitle(R.string.more)
     }
 }
