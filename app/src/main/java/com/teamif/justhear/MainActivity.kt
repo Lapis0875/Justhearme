@@ -35,8 +35,8 @@ class MainActivity : AppCompatActivity() {
             val trans = supportFragmentManager.beginTransaction()
             when (menuItem.itemId) {
                 R.id.timeline -> trans.replace(R.id.frameLayout, fragmentTimeline).commitAllowingStateLoss()
-                R.id.nav2 -> Toast.makeText(applicationContext, "2", Toast.LENGTH_SHORT).show()
-                R.id.nav3 -> Toast.makeText(applicationContext, "3", Toast.LENGTH_SHORT).show()
+                R.id.nav2 -> Toast.makeText(applicationContext, "example", Toast.LENGTH_SHORT).show()
+                R.id.nav3 -> Toast.makeText(applicationContext, "profile", Toast.LENGTH_SHORT).show()
                 R.id.more -> trans.replace(R.id.frameLayout, fragmentMore).commitAllowingStateLoss()
             }
 

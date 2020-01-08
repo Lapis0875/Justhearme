@@ -7,11 +7,11 @@
         android:title="" />
     <item
         android:id="@+id/nav2"
-        android:icon="@android:drawable/ic_menu_camera"
+        android:icon="@drawable/ic_bookmark_black_24dp"
         android:title="" />
     <item
         android:id="@+id/nav3"
-        android:icon="@android:drawable/ic_menu_camera"
+        android:icon="@drawable/ic_person_black_24dp"
         android:title="" />
     <item
         android:id="@+id/more"
