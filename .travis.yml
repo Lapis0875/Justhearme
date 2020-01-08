@@ -10,6 +10,7 @@ env:
 # Emulator Management: Create, Start and Wait
 before_script:
   - android list targets
+  - android list sdk --extended --no-ui --all
   - echo no | android create avd --force -n test -t android-28
   - emulator -avd test -no-skin -no-audio -no-window &
   - android-wait-for-emulator
