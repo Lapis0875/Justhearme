@@ -9,8 +9,7 @@ env:
 
 # Emulator Management: Create, Start and Wait
 before_script:
-  - android list targets
-  - echo -e "y\ny" | android update sdk -a --no-ui --filter sys-img-x86_64-google_apis_playstore-28,sys-img-x86_64-android-28
+  - echo yes | android update sdk -a --no-ui --filter sys-img-x86_64-google_apis_playstore-28,sys-img-x86_64-android-28
   - android list targets
   - echo no | android create avd --force -n test -t android-28
   - emulator -avd test -no-skin -no-audio -no-window &
